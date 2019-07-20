@@ -5,6 +5,7 @@ const users = require('./data/users.json');
 
 module.exports = () => {
     return {
+        info: {},
         ...authenticate,
         ...account,
         ...clients,

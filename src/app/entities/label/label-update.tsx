@@ -76,8 +76,8 @@ export class LabelUpdate extends React.Component<ILabelUpdateProps, ILabelUpdate
             <div>
                 <Row className="justify-content-center">
                     <Col md="8">
-                        <h2 id="jhipsterSampleApplicationReactApp.label.home.createOrEditLabel">
-                            <Translate contentKey="jhipsterSampleApplicationReactApp.label.home.createOrEditLabel">
+                        <h2 id="jhiApp.label.home.createOrEditLabel">
+                            <Translate contentKey="jhiApp.label.home.createOrEditLabel">
                                 Create or edit a Label
                             </Translate>
                         </h2>
@@ -110,7 +110,7 @@ export class LabelUpdate extends React.Component<ILabelUpdateProps, ILabelUpdate
                                 ) : null}
                                 <AvGroup>
                                     <Label id="labelLabel" for="label-label">
-                                        <Translate contentKey="jhipsterSampleApplicationReactApp.label.label">
+                                        <Translate contentKey="jhiApp.label.label">
                                             Label
                                         </Translate>
                                     </Label>

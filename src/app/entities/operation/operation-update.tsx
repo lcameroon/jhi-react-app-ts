@@ -90,8 +90,8 @@ export class OperationUpdate extends React.Component<
             <div>
                 <Row className="justify-content-center">
                     <Col md="8">
-                        <h2 id="jhipsterSampleApplicationReactApp.operation.home.createOrEditLabel">
-                            <Translate contentKey="jhipsterSampleApplicationReactApp.operation.home.createOrEditLabel">
+                        <h2 id="jhiApp.operation.home.createOrEditLabel">
+                            <Translate contentKey="jhiApp.operation.home.createOrEditLabel">
                                 Create or edit a Operation
                             </Translate>
                         </h2>
@@ -124,7 +124,7 @@ export class OperationUpdate extends React.Component<
                                 ) : null}
                                 <AvGroup>
                                     <Label id="dateLabel" for="operation-date">
-                                        <Translate contentKey="jhipsterSampleApplicationReactApp.operation.date">
+                                        <Translate contentKey="jhiApp.operation.date">
                                             Date
                                         </Translate>
                                     </Label>
@@ -155,7 +155,7 @@ export class OperationUpdate extends React.Component<
                                     <Label
                                         id="descriptionLabel"
                                         for="operation-description">
-                                        <Translate contentKey="jhipsterSampleApplicationReactApp.operation.description">
+                                        <Translate contentKey="jhiApp.operation.description">
                                             Description
                                         </Translate>
                                     </Label>
@@ -167,7 +167,7 @@ export class OperationUpdate extends React.Component<
                                 </AvGroup>
                                 <AvGroup>
                                     <Label id="amountLabel" for="operation-amount">
-                                        <Translate contentKey="jhipsterSampleApplicationReactApp.operation.amount">
+                                        <Translate contentKey="jhiApp.operation.amount">
                                             Amount
                                         </Translate>
                                     </Label>
@@ -193,7 +193,7 @@ export class OperationUpdate extends React.Component<
                                 </AvGroup>
                                 <AvGroup>
                                     <Label for="operation-bankAccount">
-                                        <Translate contentKey="jhipsterSampleApplicationReactApp.operation.bankAccount">
+                                        <Translate contentKey="jhiApp.operation.bankAccount">
                                             Bank Account
                                         </Translate>
                                     </Label>
@@ -216,7 +216,7 @@ export class OperationUpdate extends React.Component<
                                 </AvGroup>
                                 <AvGroup>
                                     <Label for="operation-label">
-                                        <Translate contentKey="jhipsterSampleApplicationReactApp.operation.label">
+                                        <Translate contentKey="jhiApp.operation.label">
                                             Label
                                         </Translate>
                                     </Label>

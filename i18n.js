@@ -1,5 +1,6 @@
 const fs = require('fs');
-const basePath = './public/i18n';
+const fromPath = './src/i18n';
+const toPath = './public/i18n';
 
 const languages = [ 'en' ];
 
@@ -8,10 +9,10 @@ languages.forEach(lang => {
     // loading /i18n/{lang}/*.json files
     //
     let src = {};
-    fs.readdirSync(`${basePath}/${lang}`).forEach(function(file){
+    fs.readdirSync(`${fromPath}/${lang}`).forEach(function(file){
         if (file.match(/\.json$/) !== null) {
             const name = file.replace('.js', '');
-            const rawJson = require(`${basePath}/en/${file}`);
+            const rawJson = require(`${fromPath}/en/${file}`);
             src = {
                 ...src,
                 ...rawJson
@@ -22,7 +23,7 @@ languages.forEach(lang => {
     //
     // saving `/i18n/{lang}.json` file
     //
-    const i18nFile = `${basePath}/${lang}.json`;
+    const i18nFile = `${toPath}/${lang}.json`;
     fs.writeFile(i18nFile, JSON.stringify(src), { flat: 'w' }, function(err){
         if (err) {
             return console.log(err);

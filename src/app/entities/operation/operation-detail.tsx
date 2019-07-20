@@ -25,7 +25,7 @@ export class OperationDetail extends React.Component<IOperationDetailProps> {
             <Row>
                 <Col md="8">
                     <h2>
-                        <Translate contentKey="jhipsterSampleApplicationReactApp.operation.detail.title">
+                        <Translate contentKey="jhiApp.operation.detail.title">
                             Operation
                         </Translate>{' '}
                         [
@@ -34,7 +34,7 @@ export class OperationDetail extends React.Component<IOperationDetailProps> {
                     <dl className="jh-entity-details">
                         <dt>
                             <span id="date">
-                                <Translate contentKey="jhipsterSampleApplicationReactApp.operation.date">
+                                <Translate contentKey="jhiApp.operation.date">
                                     Date
                                 </Translate>
                             </span>
@@ -48,7 +48,7 @@ export class OperationDetail extends React.Component<IOperationDetailProps> {
                         </dd>
                         <dt>
                             <span id="description">
-                                <Translate contentKey="jhipsterSampleApplicationReactApp.operation.description">
+                                <Translate contentKey="jhiApp.operation.description">
                                     Description
                                 </Translate>
                             </span>
@@ -56,14 +56,14 @@ export class OperationDetail extends React.Component<IOperationDetailProps> {
                         <dd>{operationEntity.description}</dd>
                         <dt>
                             <span id="amount">
-                                <Translate contentKey="jhipsterSampleApplicationReactApp.operation.amount">
+                                <Translate contentKey="jhiApp.operation.amount">
                                     Amount
                                 </Translate>
                             </span>
                         </dt>
                         <dd>{operationEntity.amount}</dd>
                         <dt>
-                            <Translate contentKey="jhipsterSampleApplicationReactApp.operation.bankAccount">
+                            <Translate contentKey="jhiApp.operation.bankAccount">
                                 Bank Account
                             </Translate>
                         </dt>
@@ -75,7 +75,7 @@ export class OperationDetail extends React.Component<IOperationDetailProps> {
                             )}
                         </dd>
                         <dt>
-                            <Translate contentKey="jhipsterSampleApplicationReactApp.operation.label">
+                            <Translate contentKey="jhiApp.operation.label">
                                 Label
                             </Translate>
                         </dt>

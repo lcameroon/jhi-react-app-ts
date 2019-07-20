@@ -37,9 +37,9 @@ export class LabelDeleteDialog extends React.Component<ILabelDeleteDialogProps> 
                         Confirm delete operation
                     </Translate>
                 </ModalHeader>
-                <ModalBody id="jhipsterSampleApplicationReactApp.label.delete.question">
+                <ModalBody id="jhiApp.label.delete.question">
                     <Translate
-                        contentKey="jhipsterSampleApplicationReactApp.label.delete.question"
+                        contentKey="jhiApp.label.delete.question"
                         interpolate={{ id: labelEntity.id }}>
                         Are you sure you want to delete this Label?
                     </Translate>

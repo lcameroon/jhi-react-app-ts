@@ -1,0 +1,49 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Constance Noring",
+      "number": "0808080808",
+      "type": "HD",
+      "currency": "CAD",
+      "loc": 12321312,
+      "capacity": 21313,
+      "thold1": 12312,
+      "thold2": 345345,
+      "thold3": 3543534,
+      "overdraft": 345354,
+      "stopped": 345,
+      "spendLimit": 133212312
+    },
+    {
+      "id": 2,
+      "name": "Bridget Theriveaquai",
+      "number": "0808080808",
+      "type": "BP",
+      "currency": "CAD",
+      "loc": 12321312,
+      "capacity": 133212312,
+      "thold1": 12312,
+      "thold2": 345345,
+      "thold3": 3543534,
+      "overdraft": 345354,
+      "stopped": 345,
+      "spendLimit": 345354
+    },
+    {
+      "id": 3,
+      "name": "Lynne Gwafranca",
+      "number": "0808080808",
+      "type": "HD",
+      "currency": "USD",
+      "loc": 12321312,
+      "capacity": 12312,
+      "thold1": 12312,
+      "thold2": 345345,
+      "thold3": 3543534,
+      "overdraft": 345354,
+      "stopped": 345,
+      "spendLimit": 133212312
+    }
+  ]
+}

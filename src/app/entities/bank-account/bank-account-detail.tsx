@@ -24,7 +24,7 @@ export class BankAccountDetail extends React.Component<IBankAccountDetailProps> 
             <Row>
                 <Col md="8">
                     <h2>
-                        <Translate contentKey="jhipsterSampleApplicationReactApp.bankAccount.detail.title">
+                        <Translate contentKey="jhiApp.bankAccount.detail.title">
                             BankAccount
                         </Translate>{' '}
                         [
@@ -33,7 +33,7 @@ export class BankAccountDetail extends React.Component<IBankAccountDetailProps> 
                     <dl className="jh-entity-details">
                         <dt>
                             <span id="name">
-                                <Translate contentKey="jhipsterSampleApplicationReactApp.bankAccount.name">
+                                <Translate contentKey="jhiApp.bankAccount.name">
                                     Name
                                 </Translate>
                             </span>
@@ -41,14 +41,14 @@ export class BankAccountDetail extends React.Component<IBankAccountDetailProps> 
                         <dd>{bankAccountEntity.name}</dd>
                         <dt>
                             <span id="balance">
-                                <Translate contentKey="jhipsterSampleApplicationReactApp.bankAccount.balance">
+                                <Translate contentKey="jhiApp.bankAccount.balance">
                                     Balance
                                 </Translate>
                             </span>
                         </dt>
                         <dd>{bankAccountEntity.balance}</dd>
                         <dt>
-                            <Translate contentKey="jhipsterSampleApplicationReactApp.bankAccount.user">
+                            <Translate contentKey="jhiApp.bankAccount.user">
                                 User
                             </Translate>
                         </dt>

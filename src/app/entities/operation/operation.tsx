@@ -75,7 +75,7 @@ export class Operation extends React.Component<IOperationProps, IOperationState>
         return (
             <div>
                 <h2 id="operation-heading">
-                    <Translate contentKey="jhipsterSampleApplicationReactApp.operation.home.title">
+                    <Translate contentKey="jhiApp.operation.home.title">
                         Operations
                     </Translate>
                     <Link
@@ -84,7 +84,7 @@ export class Operation extends React.Component<IOperationProps, IOperationState>
                         id="jh-create-entity">
                         <FontAwesomeIcon icon="plus" />
                         &nbsp;
-                        <Translate contentKey="jhipsterSampleApplicationReactApp.operation.home.createLabel">
+                        <Translate contentKey="jhiApp.operation.home.createLabel">
                             Create new Operation
                         </Translate>
                     </Link>
@@ -108,7 +108,7 @@ export class Operation extends React.Component<IOperationProps, IOperationState>
                                             <FontAwesomeIcon icon="sort" />
                                         </th>
                                         <th className="hand" onClick={this.sort('date')}>
-                                            <Translate contentKey="jhipsterSampleApplicationReactApp.operation.date">
+                                            <Translate contentKey="jhiApp.operation.date">
                                                 Date
                                             </Translate>{' '}
                                             <FontAwesomeIcon icon="sort" />
@@ -116,7 +116,7 @@ export class Operation extends React.Component<IOperationProps, IOperationState>
                                         <th
                                             className="hand"
                                             onClick={this.sort('description')}>
-                                            <Translate contentKey="jhipsterSampleApplicationReactApp.operation.description">
+                                            <Translate contentKey="jhiApp.operation.description">
                                                 Description
                                             </Translate>{' '}
                                             <FontAwesomeIcon icon="sort" />
@@ -124,13 +124,13 @@ export class Operation extends React.Component<IOperationProps, IOperationState>
                                         <th
                                             className="hand"
                                             onClick={this.sort('amount')}>
-                                            <Translate contentKey="jhipsterSampleApplicationReactApp.operation.amount">
+                                            <Translate contentKey="jhiApp.operation.amount">
                                                 Amount
                                             </Translate>{' '}
                                             <FontAwesomeIcon icon="sort" />
                                         </th>
                                         <th>
-                                            <Translate contentKey="jhipsterSampleApplicationReactApp.operation.bankAccount">
+                                            <Translate contentKey="jhiApp.operation.bankAccount">
                                                 Bank Account
                                             </Translate>{' '}
                                             <FontAwesomeIcon icon="sort" />
@@ -215,7 +215,7 @@ export class Operation extends React.Component<IOperationProps, IOperationState>
                             </Table>
                         ) : (
                             <div className="alert alert-warning">
-                                <Translate contentKey="jhipsterSampleApplicationReactApp.operation.home.notFound">
+                                <Translate contentKey="jhiApp.operation.home.notFound">
                                     No Operations found
                                 </Translate>
                             </div>

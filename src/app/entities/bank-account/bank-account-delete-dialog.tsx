@@ -39,9 +39,9 @@ export class BankAccountDeleteDialog extends React.Component<
                         Confirm delete operation
                     </Translate>
                 </ModalHeader>
-                <ModalBody id="jhipsterSampleApplicationReactApp.bankAccount.delete.question">
+                <ModalBody id="jhiApp.bankAccount.delete.question">
                     <Translate
-                        contentKey="jhipsterSampleApplicationReactApp.bankAccount.delete.question"
+                        contentKey="jhiApp.bankAccount.delete.question"
                         interpolate={{ id: bankAccountEntity.id }}>
                         Are you sure you want to delete this BankAccount?
                     </Translate>

@@ -23,7 +23,7 @@ export class BankAccount extends React.Component<IBankAccountProps> {
         return (
             <div>
                 <h2 id="bank-account-heading">
-                    <Translate contentKey="jhipsterSampleApplicationReactApp.bankAccount.home.title">
+                    <Translate contentKey="jhiApp.bankAccount.home.title">
                         Bank Accounts
                     </Translate>
                     <Link
@@ -32,7 +32,7 @@ export class BankAccount extends React.Component<IBankAccountProps> {
                         id="jh-create-entity">
                         <FontAwesomeIcon icon="plus" />
                         &nbsp;
-                        <Translate contentKey="jhipsterSampleApplicationReactApp.bankAccount.home.createLabel">
+                        <Translate contentKey="jhiApp.bankAccount.home.createLabel">
                             Create new Bank Account
                         </Translate>
                     </Link>
@@ -48,17 +48,17 @@ export class BankAccount extends React.Component<IBankAccountProps> {
                                         </Translate>
                                     </th>
                                     <th>
-                                        <Translate contentKey="jhipsterSampleApplicationReactApp.bankAccount.name">
+                                        <Translate contentKey="jhiApp.bankAccount.name">
                                             Name
                                         </Translate>
                                     </th>
                                     <th>
-                                        <Translate contentKey="jhipsterSampleApplicationReactApp.bankAccount.balance">
+                                        <Translate contentKey="jhiApp.bankAccount.balance">
                                             Balance
                                         </Translate>
                                     </th>
                                     <th>
-                                        <Translate contentKey="jhipsterSampleApplicationReactApp.bankAccount.user">
+                                        <Translate contentKey="jhiApp.bankAccount.user">
                                             User
                                         </Translate>
                                     </th>
@@ -132,7 +132,7 @@ export class BankAccount extends React.Component<IBankAccountProps> {
                         </Table>
                     ) : (
                         <div className="alert alert-warning">
-                            <Translate contentKey="jhipsterSampleApplicationReactApp.bankAccount.home.notFound">
+                            <Translate contentKey="jhiApp.bankAccount.home.notFound">
                                 No Bank Accounts found
                             </Translate>
                         </div>

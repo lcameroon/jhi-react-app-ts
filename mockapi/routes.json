@@ -1,5 +1,0 @@
-{
-  "/api/*": "/$1",
-  "/management/*": "/$1",
-  "/:resource/:id/view": "/:resource/:id"
-}

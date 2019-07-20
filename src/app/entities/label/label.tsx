@@ -23,16 +23,14 @@ export class Label extends React.Component<ILabelProps> {
         return (
             <div>
                 <h2 id="label-heading">
-                    <Translate contentKey="jhipsterSampleApplicationReactApp.label.home.title">
-                        Labels
-                    </Translate>
+                    <Translate contentKey="jhiApp.label.home.title">Labels</Translate>
                     <Link
                         to={`${match.url}/new`}
                         className="btn btn-primary float-right jh-create-entity"
                         id="jh-create-entity">
                         <FontAwesomeIcon icon="plus" />
                         &nbsp;
-                        <Translate contentKey="jhipsterSampleApplicationReactApp.label.home.createLabel">
+                        <Translate contentKey="jhiApp.label.home.createLabel">
                             Create new Label
                         </Translate>
                     </Link>
@@ -48,7 +46,7 @@ export class Label extends React.Component<ILabelProps> {
                                         </Translate>
                                     </th>
                                     <th>
-                                        <Translate contentKey="jhipsterSampleApplicationReactApp.label.label">
+                                        <Translate contentKey="jhiApp.label.label">
                                             Label
                                         </Translate>
                                     </th>
@@ -114,7 +112,7 @@ export class Label extends React.Component<ILabelProps> {
                         </Table>
                     ) : (
                         <div className="alert alert-warning">
-                            <Translate contentKey="jhipsterSampleApplicationReactApp.label.home.notFound">
+                            <Translate contentKey="jhiApp.label.home.notFound">
                                 No Labels found
                             </Translate>
                         </div>

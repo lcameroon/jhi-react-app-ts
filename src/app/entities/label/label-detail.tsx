@@ -24,7 +24,7 @@ export class LabelDetail extends React.Component<ILabelDetailProps> {
             <Row>
                 <Col md="8">
                     <h2>
-                        <Translate contentKey="jhipsterSampleApplicationReactApp.label.detail.title">
+                        <Translate contentKey="jhiApp.label.detail.title">
                             Label
                         </Translate>{' '}
                         [<b>{labelEntity.id}</b>]
@@ -32,7 +32,7 @@ export class LabelDetail extends React.Component<ILabelDetailProps> {
                     <dl className="jh-entity-details">
                         <dt>
                             <span id="label">
-                                <Translate contentKey="jhipsterSampleApplicationReactApp.label.label">
+                                <Translate contentKey="jhiApp.label.label">
                                     Label
                                 </Translate>
                             </span>

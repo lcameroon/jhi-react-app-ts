@@ -79,8 +79,8 @@ export class BankAccountUpdate extends React.Component<
             <div>
                 <Row className="justify-content-center">
                     <Col md="8">
-                        <h2 id="jhipsterSampleApplicationReactApp.bankAccount.home.createOrEditLabel">
-                            <Translate contentKey="jhipsterSampleApplicationReactApp.bankAccount.home.createOrEditLabel">
+                        <h2 id="jhiApp.bankAccount.home.createOrEditLabel">
+                            <Translate contentKey="jhiApp.bankAccount.home.createOrEditLabel">
                                 Create or edit a BankAccount
                             </Translate>
                         </h2>
@@ -113,7 +113,7 @@ export class BankAccountUpdate extends React.Component<
                                 ) : null}
                                 <AvGroup>
                                     <Label id="nameLabel" for="bank-account-name">
-                                        <Translate contentKey="jhipsterSampleApplicationReactApp.bankAccount.name">
+                                        <Translate contentKey="jhiApp.bankAccount.name">
                                             Name
                                         </Translate>
                                     </Label>
@@ -133,7 +133,7 @@ export class BankAccountUpdate extends React.Component<
                                 </AvGroup>
                                 <AvGroup>
                                     <Label id="balanceLabel" for="bank-account-balance">
-                                        <Translate contentKey="jhipsterSampleApplicationReactApp.bankAccount.balance">
+                                        <Translate contentKey="jhiApp.bankAccount.balance">
                                             Balance
                                         </Translate>
                                     </Label>
@@ -159,7 +159,7 @@ export class BankAccountUpdate extends React.Component<
                                 </AvGroup>
                                 <AvGroup>
                                     <Label for="bank-account-user">
-                                        <Translate contentKey="jhipsterSampleApplicationReactApp.bankAccount.user">
+                                        <Translate contentKey="jhiApp.bankAccount.user">
                                             User
                                         </Translate>
                                     </Label>

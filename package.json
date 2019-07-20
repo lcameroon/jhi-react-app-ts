@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "npm-run-all --parallel start-dev mockapi",
+    "start": "npm-run-all --parallel start:dev mockapi",
     "prestart:dev": "npm run i18n",
     "start:dev": "react-scripts start",
     "mockapi": "json-server --watch mockapi/router.js --port 8080 --delay 500 --routes mockapi/rewriter.json --middlewares mockapi/middleware.js",
@@ -59,6 +59,7 @@
     "@types/reactstrap": "^8.0.1",
     "@types/redux": "^3.6.0",
     "json-server": "^0.15.0",
+    "jsonwebtoken": "^8.5.1",
     "node-sass": "^4.12.0",
     "npm-run-all": "^4.1.5",
     "react-scripts": "3.0.1",
@@ -73,6 +74,7 @@
     "tslint-react": "^4.0.0",
     "typescript": "3.5.3"
   },
+  "proxy": "http://localhost:8080",
   "eslintConfig": {
     "extends": "react-app"
   },

@@ -17,9 +17,7 @@ export const Brand = props => (
     <NavbarBrand tag={Link} to="/" className="brand-logo">
         <BrandIcon />
         <span className="brand-title">
-            <Translate contentKey="global.title">
-                JhipsterSampleApplicationReact
-            </Translate>
+            <Translate contentKey="global.title">Jhipster</Translate>
         </span>
         <span className="navbar-version">{appConfig.VERSION}</span>
     </NavbarBrand>

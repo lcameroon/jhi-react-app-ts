@@ -37,9 +37,9 @@ export class OperationDeleteDialog extends React.Component<IOperationDeleteDialo
                         Confirm delete operation
                     </Translate>
                 </ModalHeader>
-                <ModalBody id="jhipsterSampleApplicationReactApp.operation.delete.question">
+                <ModalBody id="jhiApp.operation.delete.question">
                     <Translate
-                        contentKey="jhipsterSampleApplicationReactApp.operation.delete.question"
+                        contentKey="jhiApp.operation.delete.question"
                         interpolate={{ id: operationEntity.id }}>
                         Are you sure you want to delete this Operation?
                     </Translate>

@@ -104,7 +104,7 @@ export default () => next => action => {
                                         '[]'
                                     );
                                     const fieldName = translate(
-                                        `jhipsterSampleApplicationReactApp.${fieldError.objectName}.${convertedField}`
+                                        `jhiApp.${fieldError.objectName}.${convertedField}`
                                     );
                                     addErrorAlert(
                                         `Error on field "${fieldName}"`,

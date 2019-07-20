@@ -3,8 +3,6 @@ import { toast } from 'react-toastify';
 
 const addErrorAlert = (message, key?, data?) => {
     key = key ? key : message;
-    console.log('addErrorAlert', translate('error', data));
-
     toast.error(translate(key, data));
 };
 export default () => next => action => {

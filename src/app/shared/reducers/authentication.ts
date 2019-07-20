@@ -2,6 +2,7 @@ import axios from 'axios';
 import { Storage } from 'react-jhipster';
 
 import { REQUEST, SUCCESS, FAILURE } from '../reducers/action-type.util';
+import { AUTH_TOKEN_KEY } from '../../config/constants';
 import { setLocale } from '../reducers/locale';
 
 export const ACTION_TYPES = {
@@ -11,8 +12,6 @@ export const ACTION_TYPES = {
     CLEAR_AUTH: 'authentication/CLEAR_AUTH',
     ERROR_MESSAGE: 'authentication/ERROR_MESSAGE'
 };
-
-const AUTH_TOKEN_KEY = 'jhi-authenticationToken';
 
 const initialState = {
     loading: false,

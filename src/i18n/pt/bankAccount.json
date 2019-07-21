@@ -1,0 +1,25 @@
+{
+  "jhiApp": {
+    "bankAccount": {
+      "home": {
+        "title": "Contas Bancárias",
+        "createLabel": "Criar uma nova conta bancária",
+        "createOrEditLabel": "Criar ou editar uma conta bancária",
+        "notFound": "Nenhuma conta bancária encontrada"
+      },
+      "created": "Uma nova conta bancária é criada com o identificador {{param}}",
+      "updated": "Uma conta bancária é atualizada com o identificador {{param}}",
+      "deleted": "Uma conta bancária é eliminada com o identificador {{param}}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir a conta bancária {{id}}?"
+      },
+      "detail": {
+        "title": "Conta bancária"
+      },
+      "name": "Nome",
+      "balance": "Balanço",
+      "user": "Usuário",
+      "operation": "Operação"
+    }
+  }
+}

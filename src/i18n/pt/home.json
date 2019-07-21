@@ -1,0 +1,19 @@
+{
+  "home": {
+    "title": "  Bem vinda, Hipster WebApp!",
+    "subtitle": "Esta é sua página inicial",
+    "logged": {
+      "message": "Você está logado como usuário \"{{username}}\"."
+    },
+    "question": "Se você tem alguma dúvida sobre JHipster:",
+    "link": {
+      "homepage": "JHipster homepage",
+      "stackoverflow": "JHipster no Stack Overflow",
+      "bugtracker": "JHipster bug tracker",
+      "chat": "JHipster sala de chat pública",
+      "follow": "Siga @java_hipster no Twitter"
+    },
+    "like": "Se você gosta do JHipster, não se esqueça de nos dar uma estrela",
+    "github": "GitHub"
+  }
+}
